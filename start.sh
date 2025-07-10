@@ -5,9 +5,6 @@ set -e
 
 echo "Running AfterInstall script"
 
-# Set permissions on the app folder
-chmod -R 755 /home/ec2-user/myapp
-
 # Install dependencies (e.g., Node.js app)
 cd /home/ec2-user/myapp
 
